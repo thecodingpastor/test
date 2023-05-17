@@ -11,6 +11,7 @@ export default function handler(
 ) {
   console.log("NODE_ENV =====> ", process.env.NODE_ENV);
   console.log("TEST_ENV =====> ", process.env.TEST_ENV);
+  console.log("PROCESS =====> ", process.env);
 
   res.status(200).json({ name: "John Doe" });
 }
