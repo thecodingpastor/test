@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   console.log("NODE_ENV =====> ", process.env.NODE_ENV);
   console.log("TEST_ENV =====> ", process.env.TEST_ENV);
+  console.log("ANOTHER =====> ", process.env.ANOTHER);
   return (
     <>
       <Head>
