@@ -11,7 +11,6 @@ export default function handler(
 ) {
   console.log("NODE_ENV =====> ", process.env.NODE_ENV);
   console.log("TEST_ENV =====> ", process.env.TEST_ENV);
-  console.log("TWITCH_CLIENT_ID =====> ", process.env.TWITCH_CLIENT_ID);
 
   res.status(200).json({ name: "John Doe" });
 }
