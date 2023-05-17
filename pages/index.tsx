@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   console.log("NODE_ENV =====> ", process.env.NODE_ENV);
   console.log("TEST_ENV =====> ", process.env.TEST_ENV);
-  console.log("ANOTHER =====> ", process.env.ANOTHER);
+  console.log("TWITCH_CLIENT_ID =====> ", process.env.TWITCH_CLIENT_ID);
+
   return (
     <>
       <Head>
